@@ -10,7 +10,7 @@ function isEnabled(value) {
 
 cmd({
     pattern: "env",
-    alias: ["setting", "allvar"],
+    alias: ["settings","setting", "allvar"],
     desc: "Settings of bot",
     category: "menu",
     react: "⤵️",
@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         // Define the settings message with the correct boolean checks
         let envSettings = `╭〔 *【𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃】* 〕⊷
 ┃▸╭───────────
-┃▸┃๏ *ENV SETTINGS 🗿*
+┃▸┃๏ *ENV SETTINGS 👻*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
 ╭━━〔 *Enabled Disabled* 〕━━┈⊷
@@ -66,7 +66,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send an audio file
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/310dic.aac' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

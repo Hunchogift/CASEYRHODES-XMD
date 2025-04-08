@@ -36,7 +36,7 @@ cmd({
     }
     let _0x49a379 = _0xe6be44.headers.get("content-disposition");
     let _0x481150 = _0x49a379 ? _0x49a379.match(/filename=(.*)/)[0x1] : _0x16a926 + ".zip";
-    _0x11eb9d("*📥𝑪𝑨𝑺𝑬𝒀𝑹𝑯𝑶𝑫𝑬𝑺-𝑿𝑴𝑫 DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻*");
+    _0x11eb9d("*📥 CASEYRHODES XMD IS DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© ℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊-𝕏𝕄𝔻👻*");
     await _0x359a4d.sendMessage(_0x421a7d, {
       'document': {
         'url': _0x936878
@@ -48,8 +48,8 @@ cmd({
         'forwardingScore': 0x3e7,
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "12036330267721743@newsletter",
-          'newsletterName': "CASEYRHODES-XMD GITHUB CLONE💀",
+          'newsletterJid': "120363302677217436@newsletter",
+          'newsletterName': "CASEYRHODES-XMD GITHUB CLONE👻",
           'serverMessageId': 0x8f
         }
       }

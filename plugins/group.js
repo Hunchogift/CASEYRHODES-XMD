@@ -942,7 +942,7 @@ cmd(_0x34bd2a, async (_0xd64721, _0x5b20b2, _0x2bf8dd, {
   }
 });
 const _0x57538f = {
-  'pattern': "kick",
+  'pattern': "kicks",
   'react': '🥏',
   'alias': ["remove"],
   'desc': "To Remove a participant from Group",
@@ -1021,7 +1021,7 @@ cmd(_0x57538f, async (_0xdf818e, _0xa69965, _0x290fe5, {
   }
 });
 const _0xd699f4 = {
-  'pattern': "promote",
+  'pattern': "promotes",
   'react': '🥏',
   'alias': ["addadmin"],
   'desc': "To Add a participatant as a Admin",
@@ -1104,7 +1104,7 @@ cmd(_0xd699f4, async (_0x4924ea, _0x5010b3, _0x3c1d65, {
   }
 });
 const _0x10f253 = {
-  'pattern': "demote",
+  'pattern': "demotes",
   'react': '🥏',
   'alias': ["removeadmin"],
   'desc': "To Demote Admin to Member",

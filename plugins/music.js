@@ -25,13 +25,13 @@ cmd({
   try {
     // Fetch from Spotify
     const spotifyResponse = await axios.get(
-      `https://spotifyapi.caliphdev.com/api/search/tracks?q=${encodeURIComponent(q)}`
+      `https://apis-keith.vercel.app/download/spotify?q=${encodeURIComponent(q)}`
     );
     const spotifyTrack = spotifyResponse.data?.[0]; // Safely access first track
 
     if (spotifyTrack) {
       const trackStream = await axios({
-        url: `https://spotifyapi.caliphdev.com/api/download/track?url=${encodeURIComponent(spotifyTrack.url)}`,
+        url: `https://apis-keith.vercel.app/download/spotify?q=${encodeURIComponent(spotifyTrack.url)}`,
         method: "GET",
         responseType: 'stream'
       });
