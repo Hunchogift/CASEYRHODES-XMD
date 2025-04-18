@@ -4,8 +4,8 @@
   "keywords": ["CASEYRHODES-XMD"],
   
   
-  "logo": "https://i.ibb.co/n6rw805/694affc7ca5a5fb0cb58c2b4533f962d.jpg",
-  "repository": "https://github.com/caseyweb/NHEZHO-MD",
+  "logo": "https://files.catbox.moe/52dotx.jpg`",
+  "repository": "https://github.com/caseyweb/CASEYRHODES-XMD",
   "succes_url": "/",
 
   "stack": "container",
@@ -19,7 +19,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg"
+      "value": "https://files.catbox.moe/52dotx.jpg`"
     }, 
     
     "LIVE_MSG": {
